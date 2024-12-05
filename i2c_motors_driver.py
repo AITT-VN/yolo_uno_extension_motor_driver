@@ -25,7 +25,7 @@ STEPPER_MODE_STEP = const(1)
 DC_MOTOR_MAX_SPEED = 100
 STEPPER_MOTOR_MAX_SPEED = 255
 
-class DCMotor():
+class DCMotorV1():
     def __init__(self):
         # Grove port: GND VCC SCL SDA
         scl_pin = machine.Pin(SCL_PIN)
